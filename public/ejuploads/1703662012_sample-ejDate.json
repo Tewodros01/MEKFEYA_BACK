@@ -1,0 +1,120 @@
+﻿
+  {
+    "id": 34,
+    "user_id": 59,
+    "customer_id": 1,
+    "total_amount": "510.60",
+    "transaction_date": "2023-12-20",
+    "invoice_no": "CSI-000013",
+    "sales_type": "cash",
+    "fs_no": "00000013",
+    "total_vat": 66.6,
+    "total_discount": "0.00",
+    "change_amount": 0,
+    "is_void": 1,
+    "void_remark": "the test one",
+    "void_date": "2023-12-20 15:24:54",
+    "void_by": 59,
+    "location_id": 1,
+    "is_refunded": 0,
+    "created_at": "2023-12-20T12:24:36.000000Z",
+    "updated_at": "2023-12-20T12:24:55.000000Z",
+    "sales_by": [
+      {
+        "id": 59,
+        "first_name": "Amare",
+        "last_name": "Zewudu",
+        "gender": "Male",
+        "phone_number": "098888888888",
+        "email": "yeshi@gmail.com",
+        "location_id": 1,
+        "image_path": "",
+        "imagename": "",
+        "email_verified_at": "2023-12-06T04:27:45.000000Z",
+        "last_login_at": "2023-12-06 07:27:45",
+        "last_login_ip": "127.0.0.1",
+        "role_id": 1,
+        "active": 1,
+        "theme_setting": null,
+        "created_at": "2023-12-06T04:27:45.000000Z",
+        "updated_at": "2023-12-21T08:35:26.000000Z"
+      }
+    ],
+    "transaction_details": [
+      {
+        "id": 20,
+        "transaction_id": 34,
+        "product_id": 6,
+        "quantity_sold": 2,
+        "item_price": 222,
+        "subtotal": "444.00",
+        "discount": 0,
+        "is_refunded": 0,
+        "created_at": "2023-12-20T12:24:37.000000Z",
+        "updated_at": "2023-12-20T12:24:37.000000Z",
+        "product": {
+          "id": 6,
+          "product_description": "testProductTwo",
+          "product_code": "item-0002",
+          "prc_code": "00001",
+          "product_category_id": 1,
+          "unit_cost": "230.00",
+          "unit_of_measurement": 1,
+          "unit_price": "222.00",
+          "product_quantity": 23,
+          "product_image": "",
+          "productimage_path": "",
+          "tax_rate_id": 1,
+          "remark": "rrrrrrrrrrrrr",
+          "is_active": 1,
+          "location_id": 1,
+          "reg_by_id": 59,
+          "purchase_date": "2023-12-11",
+          "exp_date": "2024-01-07",
+          "created_at": "2023-12-11T08:37:51.000000Z",
+          "updated_at": "2023-12-20T12:31:48.000000Z",
+          "tax_rate": {
+            "id": 1,
+            "tax_type": "TXBL1",
+            "tax_rate": "15.00",
+            "created_at": "2023-12-05T08:35:47.000000Z",
+            "updated_at": "2023-12-05T08:35:47.000000Z"
+          }
+        }
+      }
+    ],
+    "customer": [
+      {
+        "id": 1,
+        "full_name": "Test Custommenr",
+        "contact_person": "Test Contact",
+        "tin_number": "1234567890",
+        "phone_number": "091212121212",
+        "email": "testcustomer@gmail.com",
+        "vat_reg_number": "123456",
+        "created_at": "2023-12-08T12:08:48.000000Z",
+        "updated_at": "2023-12-08T12:08:48.000000Z"
+      }
+    ],
+    "payment": [
+      {
+        "id": 27,
+        "payment_mode": "cash",
+        "transaction_id": 34,
+        "payment_transaction_no": "undefined",
+        "paid_amount": "510.60",
+        "created_at": "2023-12-20T12:24:36.000000Z",
+        "updated_at": "2023-12-20T12:24:36.000000Z"
+      }
+    ],
+    "location": [
+      {
+        "id": 1,
+        "location_name": "TestLocationOne",
+        "location_code": "Loc-0000 ",
+        "created_at": "2023-12-05T10:35:46.000000Z",
+        "updated_at": "2023-12-05T10:35:46.000000Z"
+      }
+    ]
+  }
+
